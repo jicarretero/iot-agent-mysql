@@ -4,7 +4,7 @@
 In some cases, we'd like to stablish a tunnel with the database (just for demo purposes) - 
 
 ```
-ssh -N -f -o ServerAliveInterval=30 -L 3306:127.0.0.1:3306 $remote_user@remote_host
+ssh -N -f -o ServerAliveInterval=30 -L 3306:127.0.0.1:3306 ${whoever}@${wherever}
 ```
 
 
