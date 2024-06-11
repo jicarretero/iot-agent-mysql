@@ -1,0 +1,22 @@
+{
+  "name": "iot-agent-mysql",
+  "version": "0.0.1",
+  "description": "IotAgent for MySQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jose Ignacio Carretero",
+  "license": "Apache-2.0",
+
+  "dependencies": {
+    "iotagent-node-lib": "*",
+    "mysql": "*",
+    "async": "*",
+    "http": "*",
+    "express": "*",
+    "request": "*",
+    "logops": "*"
+  } 
+
+}

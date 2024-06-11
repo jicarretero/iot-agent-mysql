@@ -1,0 +1,2 @@
+curl -v -H "NGSILD-Tenant: openiot" -H "NGSILD-Path: /" \
+    "localhost:1026/ngsi-ld/v1/entities/urn:ngsi-ld:demosql:$dev_id?options=simplified"
